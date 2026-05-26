@@ -96,7 +96,7 @@ compiler support.
 
 ## License
 
-The scripts and documentation in this project are released under the [MIT
+The code in this project are released under the [MIT
 License].
 
 [MIT License]: LICENSE
