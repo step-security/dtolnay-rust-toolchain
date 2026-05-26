@@ -25,7 +25,7 @@ jobs:
     steps:
       - uses: actions/checkout@v6
       - uses: ./
-        name: Run dtolnay/rust-toolchain${{contains(matrix.rust, ' ') && ' for ' || '@'}}${{matrix.rust}}
+        name: Run step-security/dtonlay-rust-toolchain${{contains(matrix.rust, ' ') && ' for ' || '@'}}${{matrix.rust}}
         id: toolchain
         with:
           toolchain: ${{matrix.rust}}
